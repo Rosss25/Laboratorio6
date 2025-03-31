@@ -1,0 +1,33 @@
+img{
+    height: 400px;
+    width: 200px;
+}
+.nav-link.active {
+    background-color: #6d6d6d;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#cuerpo1{
+    background-color: #adadad;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: #adadad;
+}
+
+.carousel-inner img {
+    max-height: 500px; /* Puedes ajustar esta altura según tus necesidades */
+    object-fit: contain; /* Muestra la imagen completa sin recortar */
+    width: 100%;
+}
